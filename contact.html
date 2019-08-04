@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Contact Us - HTML5 Project
+    </title>
+</head>
+<style>
+    nav {
+        opacity: 1 !important;
+        background-color: white;
+        height: 20px;
+        margin: 5px;
+        top: 0;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav span {
+        padding: 5px;
+    }
+
+    header img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    body {
+        background-color: whitesmoke;
+    }
+
+    .contact {
+        margin-top: 4%;
+    }
+
+    .contact-form {
+        margin-left: 45%;
+        margin-right: 45%;
+    }
+
+    .contact-form {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .contact-form header {
+        height: 110px;
+        background-color: white;
+    }
+
+    #header {
+        font-size: 32px;
+        padding-top: 56px;
+        padding-bottom: 32px;
+    }
+
+    .icons {
+        border: 0.5px solid white;
+    }
+
+    .icons img {
+        width: 50px;
+        height: 50px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .contact-us {
+        border: 1px solid #ccc;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        height: 100%;
+        background-color: white;
+    }
+
+    .contact-us-items {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .contact-us-items input,
+    .contact-us textarea {
+        font-size: 18px;
+        padding-bottom: 12px;
+        margin-bottom: 36px;
+        height: 30px;
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .contact-us textarea {
+        height: 60px;
+        border: 1px lightgrey solid;
+    }
+
+    .submit input {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        background-color: #005ce6;
+        font-size: 20px;
+        color: white;
+        border: 0px;
+    }
+
+    footer {
+        background-color: rgb(27, 49, 49);
+        bottom:0;
+        width:100%;
+        text-align:center;
+        padding:10px;
+        position:fixed;
+    }
+
+    footer span {
+        color: white;
+    }
+</style>
+<nav>
+    <span>
+        <a href=index.html> Home</a>
+    </span>
+    <span>
+        <a href=about.html> About </a>
+    </span>
+    <span>
+        <a href=contact.html> Contact Us</a>
+    </span>
+</nav>
+
+<body>
+    <div class="contact">
+        <h2 align="center"><strong>Contact Us</strong></h2>
+    </div>
+    <div class="contact-form">
+        <form method="GET">
+            <div class="contact-us">
+                <div class="contact-us-items">
+                    <input type="text" name="username" placeholder="Name" required>
+                </div>
+                <div class="contact-us-items">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="contact-us-items">
+                    <textarea name="textarea" placeholder="Queries" required></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<footer>
+    <span>
+        @Coprights Reserved
+    </span>
+</footer>
+
+</html>
